@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="665.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.RootLayoutController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Tiedosto">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#writeExcel" text="Tallenna" />
+                  <MenuItem mnemonicParsing="false" onAction="#writeExcel" text="Tallenna nimellä" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Tulokset">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#showResults" text="Näytä tulokset" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Tietoja">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#showAbout" text="Sovellus" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

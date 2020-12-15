@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="565.0" prefWidth="868.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.SimulationController">
+   <children>
+      <Pane prefHeight="565.0" prefWidth="868.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Circle fx:id="ik6" fill="#a72927" layoutX="84.0" layoutY="422.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="ik5" fill="#a72927" layoutX="125.0" layoutY="422.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="ik4" fill="#a72927" layoutX="166.0" layoutY="422.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="ik3" fill="#a72927" layoutX="84.0" layoutY="475.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="k1" fill="#a72927" layoutX="115.0" layoutY="125.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="ik2" fill="#a72927" layoutX="124.0" layoutY="475.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="ik1" fill="#a72927" layoutX="166.0" layoutY="475.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="k5" fill="#a72927" layoutX="115.0" layoutY="325.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="k4" fill="#a72927" layoutX="115.0" layoutY="275.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="k3" fill="#a72927" layoutX="115.0" layoutY="225.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="k2" fill="#a72927" layoutX="115.0" layoutY="175.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="323.0" layoutX="553.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="305.0" />
+            <Circle fx:id="k1" fill="#a72927" layoutX="115.0" layoutY="375.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d0deeb" height="29.0" layoutX="126.0" layoutY="359.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d0deeb" height="29.0" layoutX="126.0" layoutY="165.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+            <Line endX="-106.0" endY="70.0" layoutX="189.0" layoutY="394.0" startX="-106.0" startY="36.0" />
+            <Line endX="-32.292724609375" endY="310.0" layoutX="586.0" layoutY="137.0" startX="-33.0" startY="-11.0" />
+            <Line endX="103.207275390625" endY="46.79290771484375" layoutX="450.0" layoutY="132.0" startX="-39.70703125" startY="46.79290771484375" />
+            <Line endX="101.207275390625" endY="67.5" layoutX="452.0" layoutY="159.0" startX="-40.99993896484375" startY="67.49998474121094" />
+            <Line endX="104.0" endY="132.5" layoutX="449.0" layoutY="145.0" startX="-37.99993896484375" startY="132.5" />
+            <Line endX="176.207275390625" endY="162.5" layoutX="377.0" layoutY="164.0" startX="34.0" startY="162.5" />
+            <Line endX="-30.792724609375" endY="187.5" layoutX="583.0" layoutY="186.0" startX="-171.99993896484375" startY="187.5" />
+            <Line endX="311.0" endY="54.0" layoutX="-53.0" layoutY="393.0" startX="135.5" startY="54.0" />
+            <Line endX="-106.0" endY="70.0" layoutX="230.0" layoutY="394.0" startX="-106.0" startY="36.0" />
+            <Line endX="-106.0" endY="70.0" layoutX="272.0" layoutY="394.0" startX="-106.0" startY="36.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d0deeb" height="29.0" layoutX="195.0" layoutY="432.0" stroke="BLACK" strokeType="INSIDE" width="216.0" />
+            <Line endX="51.207275390625" endY="407.5" layoutX="502.0" layoutY="39.0" startX="-90.99993896484375" startY="407.5" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d0deeb" height="29.0" layoutX="126.0" layoutY="312.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d0deeb" height="29.0" layoutX="126.0" layoutY="263.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d0deeb" height="29.0" layoutX="126.0" layoutY="212.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d0deeb" height="29.0" layoutX="126.0" layoutY="111.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+            <Line endX="85.207275390625" endY="0.5" layoutX="468.0" layoutY="125.0" startX="-57.0" startY="0.5" />
+            <Label layoutX="661.0" layoutY="140.0" prefHeight="17.0" prefWidth="177.0" text="SuperMarket">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="35.0" fitWidth="63.0" layoutX="750.0" layoutY="133.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Desktop/carticon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

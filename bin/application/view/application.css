@@ -1,0 +1,16 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#startButton {
+  -fx-background-color: white;
+  -fx-color: white;
+  -fx-transition-duration: 0.4s;
+  -fx-text-align: center;
+  -fx-text-decoration: none;
+  -fx-display: inline-block;
+  -fx-font-size: 14px;
+  -fx-border-style: 2px solid #008CBA;
+}
+
+#startButton:hover {
+  -fx-background-color: #008CBA;
+  -fx-color: white;
+}
