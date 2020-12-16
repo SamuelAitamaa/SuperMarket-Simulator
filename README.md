@@ -20,6 +20,8 @@ of the simulation. As well as these the UI has a start button, which turns into 
 ![Simulator demo results](https://github.com/SamuelAitamaa/SuperMarket-Simulator/blob/main/demoresults.png?raw=true)
 *Simulator demo results*
 
+To try out the simulator you can download "Runnable Simulator.zip", extract it and run it with RUNTHIS.bat.
+
 The simulator is implemented with MVC-architecture and with technologies listed below:
 
 ## Technologies
