@@ -2,6 +2,9 @@ package application.view;
 	
 
 import java.io.IOException;
+
+import javax.swing.ImageIcon;
+
 import com.gembox.spreadsheet.SpreadsheetInfo;
 import application.controller.*;
 import application.model.Trace;
@@ -15,6 +18,7 @@ import javafx.stage.WindowEvent;
 import javafx.scene.*;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.*;
 
 
@@ -84,8 +88,9 @@ public class Main extends Application implements GuiIf{
 	        this.primaryStage.setTitle("SuperMarket");
 	        
 	        // Set the application icon.
-	        this.primaryStage.getIcons().add(new Image("file:src/application/controller/img/carticon.png"));
-	        
+	        Image carticon = new Image(getClass().getResource("img/carticon.png").toExternalForm());
+	        this.primaryStage.getIcons().add(carticon);
+	        	        
 	        initRootLayout();
 	        showLauncher();
 	        showSimulationView();

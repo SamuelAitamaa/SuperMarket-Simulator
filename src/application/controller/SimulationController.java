@@ -6,6 +6,8 @@ import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
@@ -17,6 +19,7 @@ public class SimulationController extends Canvas {
 	@FXML
 	Canvas canvas;
 	private GraphicsContext gc;
+	
 	
 	@FXML
 	private Circle k1;
@@ -43,13 +46,14 @@ public class SimulationController extends Canvas {
 	private Circle ik5;
 	@FXML
 	private Circle ik6;
-	
+	@FXML
+	private ImageView cartimage;
 	
 	Kontrolleri kontrolleri;
 	
 	
 	public SimulationController() {
-	
+		
 	}
 	
 	public void setController(Kontrolleri kontrolleri) {
@@ -62,7 +66,8 @@ public class SimulationController extends Canvas {
 	
 	@FXML
     private void initialize() {
-		
+		Image carticon = new Image(getClass().getResource("img/carticon.png").toExternalForm());
+        cartimage.setImage(carticon);
     }
 	
 	private void initUI() {

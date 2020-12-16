@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.swing.ImageIcon;
+
 import org.shaded.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.shaded.apache.poi.ss.usermodel.Cell;
 import org.shaded.apache.poi.ss.usermodel.Row;
@@ -26,6 +28,7 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
@@ -37,7 +40,8 @@ import javafx.stage.Stage;
 public class RootLayoutController {
 	
 	public RootLayoutController() {
-		this.naytto.getIcons().add(new Image("file:src/application/controller/img/carticon.png"));
+		Image carticon = new Image(getClass().getResource("img/carticon.png").toExternalForm());
+        this.naytto.getIcons().add(carticon);
 	}
 	
 	GuiIf gui;
@@ -75,7 +79,8 @@ public class RootLayoutController {
     	
     	Alert alert = new Alert(AlertType.INFORMATION);
     	Stage stage = (Stage) alert.getDialogPane().getScene().getWindow();
-    	stage.getIcons().add(new Image("file:src/application/controller/img/carticon.png"));
+    	Image carticon = new Image(getClass().getResource("img/carticon.png").toExternalForm());
+        stage.getIcons().add(carticon);
     	alert.setTitle("SuperMarket");
     	alert.setHeaderText("SuperMarket Simulator on kolmivaihesimuloinnilla ja MVC-arkkitehtuurilla toteutettu sovellus,\njoka tarkastelee kauppajonojen käyttäytymistä halutuilla parametreilla."
     			+ "\n\nSovellus on tehty Metropolian opiskelijatyönä."
