@@ -39,6 +39,12 @@ The simulator is implemented with MVC-architecture and with technologies listed 
 * Review results
 * Save results into an .xls Excel file
 
+## Download
+
+* Download "Runnable Simulator.zip" found in the main folder of the repository
+* Extract the folder out
+* Run with "RUNTHIS.bat"
+
 ## Creators
 
 * Samuel Aitamaa
